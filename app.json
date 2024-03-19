@@ -33,7 +33,7 @@
         },
         "MONGO_DB_URL": {
             "description": "Enter your mongodb url here.",
-            "value": "",
+            "value": "mongodb+srv://AbhiModszYT:AbhiModszYT@abhimodszyt.pom3ops.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "LOG_GROUP_ID": {
