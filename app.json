@@ -1,0 +1,59 @@
+{
+    "name": "SuperUser",
+    "description": "SuperUser is an advanced & powerful multi-featured Telegram userbot.",
+    "logo": "https://telegra.ph/file/7df0a69f1a37ce4259f2e.png",
+    "keywords": [
+        "SuperUser",
+        "telegram-userbot",
+        "telegram-music-bot",
+        "telegram-video-bot"
+    ],
+    "repository": "https://github.com/AbhiModszYT/SuperUserBOT",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Enter your api id here.",
+            "value": "6435225",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Enter your api hash here.",
+            "value": "4e984ea35f854762dcde906dce426c2d",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Enter your bot token here",
+            "value": "7125986547:AAF-HMo7oLUe4xGQxb4__WM3hNgmOuWTu1g",
+            "required": true
+        },
+        "STRING_SESSION": {
+            "description": "Enter your pyrogram v2 string session here.",
+            "value": "BQB_VHITu6TrCua0qS_GehabfiGEced3hYaSSMrPXvpgoXQxkCf2UAW-ECtxxx2nKBPlw2bn_HoNj9CPa3FOknhe1upEevNzz4dGNGOXYhNu5y-uK1CGhPZAmVUcCP18hFUs5eYbs67keD3t7mzDNu8JMbjo33E8GDz0lGn365hjg1hUa4NOy0WUi0zUX0l2MfvX80-arDGg9e46UKjZa7peLKZ9eRElO6QOeErghUBVkNzTwOuW1XAeGExhXnLWC4YQuGislZ8huNFTd46UawDvL9cR3O-fD3c1FdOZgegNVj8R74OTA45UNqdpsJq9BVlmfFA0-PJyi2h9w8obpNQJAAAAAZDQCYMA",
+            "required": true
+        },
+        "MONGO_DB_URL": {
+            "description": "Enter your mongodb url here.",
+            "value": "",
+            "required": true
+        },
+        "LOG_GROUP_ID": {
+            "description": "Enter your private log group id here.",
+            "value": "-1002143461069",
+            "required": true
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "basic"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ]
+}
