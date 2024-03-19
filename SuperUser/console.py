@@ -34,7 +34,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 STRING_SESSION = getenv("STRING_SESSION", None)
 MONGO_DB_URL = getenv("MONGO_DB_URL", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
-
+FBAN_GROUP_ID = int(getenv("FBAN_GROUP_ID", 0))
 
 # OPTIONAL VARIABLES
 SESSION_STRING = getenv("SESSION_STRING", None)
