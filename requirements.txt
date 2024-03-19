@@ -6,3 +6,6 @@ py-tgcalls==1.2.9
 tgcrypto==1.2.5
 youtube-search-python
 yt-dlp==2023.12.30
+https://github.com/New-dev0/Telethon/archive/platy.zip
+python-decouple
+python-dotenv
